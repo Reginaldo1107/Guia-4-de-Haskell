@@ -1,5 +1,5 @@
 PERO LO HICE PONIENDO TODOS FLOAT 
-factorial :: Integer -> Float
+factorial :: Float -> Float
 factorial x | x == 1 = 1.0
             |otherwise =  x * factorial (x -1)
 
