@@ -35,3 +35,9 @@ sonCoprimos x y |  y == 1 = True
 
 
 
+--d)Implementar la funcion 
+--nEsimoPrimo :: Integer ->Integer 
+--que devuelve el n-esimo primo (n ≥ 1). Recordar que el
+--primer primo es el 2, el segundo es el 3, el tercero es el 5, etc
+
+
