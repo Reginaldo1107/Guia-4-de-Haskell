@@ -24,3 +24,14 @@ esPrimo :: Integer ->Bool
 esPrimo x =  buscoPrimoConsecutivo x 2
 
 
+--c) Implementar la funcion 
+--sonCoprimos :: Integer ->Integer ->Bool 
+--que dados dos numeros naturales indica si no
+--tienen algun divisor en comun mayor estricto que 1.
+sonCoprimos :: Integer ->Integer -> Bool
+sonCoprimos x y |  y == 1 = True
+                | mod x (menorDivisor y) == 0 = False 
+                | otherwise = sonCoprimos x (div y (menorDivisor y))
+
+
+
